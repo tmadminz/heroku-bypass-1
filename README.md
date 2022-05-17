@@ -1,6 +1,7 @@
 ### Deploy mirror bot on Heroku
 ### It's not 100% successful! But works
 ### Use workflow double deploy method for better chances!
+* If this worked for you atleast star the repo.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
