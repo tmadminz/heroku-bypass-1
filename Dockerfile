@@ -13,4 +13,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 COPY config.env .
 COPY token.pickle .
 COPY start .
-CMD ["bash", "start"]
+CMD ["bash", "/root/bot/start"]
