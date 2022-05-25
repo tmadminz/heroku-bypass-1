@@ -14,7 +14,7 @@ jobs:
           heroku_app_name: ${{ secrets.APP }}
           heroku_email: ${{ secrets.MAIL }}
           usedocker: true
-          docker_heroku_process_type: worker
+          docker_heroku_process_type: web
           stack: "container"
           region: "eu"
         env:
