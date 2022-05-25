@@ -29,6 +29,7 @@ COPY .netrc /root/.netrc
 RUN pip3 install --no-cache-dir -r requirements.txt
 COPY /bot/accounts
 COPY config.env .
+COPY update.py .
 COPY token.pickle .
 COPY start.sh .
 CMD ["bash", "/root/bot/start.sh"]
